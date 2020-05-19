@@ -12,7 +12,6 @@ rotate = arr_count_rotate[1]
 # 0, 1, 2, 3
 for i in 0...rotate
   first = arr[0]
-  puts "puts #{first}"
 
   # 0, 1, 2, 3
   for j in 0...arr_length
