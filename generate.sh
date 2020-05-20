@@ -1,4 +1,4 @@
 echo '#!/bin/ruby
 
 # Author: Zil Vyas
-# HACKERRANK PROBLEM LINK HERE' > $1.rb
+# !!HackerRank Problem Link Here!!' > $1.rb
