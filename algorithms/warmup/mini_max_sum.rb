@@ -11,18 +11,10 @@ max = arr[0]
 minimum_sum = 0
 maximum_sum = 0
 
-arr.each do |num|
-  next if num <= max
-  max = num
-end
-
+arr.each { |num| max = num unless num <= max }
 arr.each { |num| minimum_sum += num unless num == max }
 
-arr.each do |num|
-  next if num >= min
-  min = num
-end
-
+arr.each { |num| min = num unless num >= min }
 arr.each { |num| maximum_sum += num unless num == min }
 
 print "#{minimum_sum} #{maximum_sum}"
