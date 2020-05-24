@@ -1,7 +1,7 @@
 #!/bin/ruby
 
 # Author: Zil Vyas
-# https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
+# https://www.hackerrank.com/challenges/array-left-rotation/problem
 
 arr_count_rotate = gets.strip.split(' ').map(&:to_i)
 arr = gets.strip.split(' ').map(&:to_i)
